@@ -10,3 +10,6 @@ app.listen(port, () => console.log("Lisening on port "+port));
 app.get('/express_backend', (req, res) => {
     res.send({ express: 'YOUR EXPRESS BACKEND IS CONNECTED TO REACT' });
   });
+app.get('/express_backend2', (req, res) => {
+    res.send({ express: 'YOUR EXPRESS BACKEND IS CONNECTED TO REACT USING THE SECOND URL' });
+  });
