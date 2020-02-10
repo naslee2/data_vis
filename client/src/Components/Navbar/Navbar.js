@@ -1,5 +1,5 @@
 import React from 'react'
-import classes from './Layout.css'
+import classes from '../Navbar/Navbar'
 
 const navbar = (props) => (
     <header>
