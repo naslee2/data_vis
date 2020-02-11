@@ -1,5 +1,5 @@
 import React from 'react'
-import classes from '../Navbar/Navbar.css'
+import classes from '../Navbar/Navbar.module.css'
 
 const navbar = (props) => (
     <header>
