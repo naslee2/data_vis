@@ -1,14 +1,15 @@
 import React from 'react';
 import Aux from '../../Aux/Aux'
 import Navbar from '../Navbar/Navbar'
-import classes from '../Layout/Layout.css'
+import classes from './Layout.css'
 
 
 const layout = (props) => (
     <Aux>
         <Navbar/>
-        <main>
+        <main className={classes.Content}>
         {props.children}
+        <p>haha</p>
         </main>
     </Aux>
 );
