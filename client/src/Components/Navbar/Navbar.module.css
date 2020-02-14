@@ -1,7 +1,24 @@
-.Navlist{
-    list-style-type: none;
+.Navbar{
+    height: 60px;
+    background-color: black;
 }
 
-.Color{
-    color: yellow;
+.Navlist{
+    list-style-type: none;
+    margin-top: 0;
 }
+
+.Navlist li{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    display: inline-block;
+    height: 60px;
+}
+
+.Navlist a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 20px;
+}
+

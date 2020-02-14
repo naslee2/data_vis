@@ -3,13 +3,12 @@ import classes from '../Navbar/Navbar.module.css'
 
 const navbar = (props) => (
     <header>
-        <nav>
+        <nav className={classes.Navbar}>
             <ul className={classes.Navlist}>
-                <li><a href="#test">test 1</a></li>
-                <li><a href="#test">test 2</a></li>
-                <li><a href="#test">test 3</a></li>
+                <li><a href="#test">Visualization</a></li>
+                <li><a href="#test">Options</a></li>
+                <li><a href="#test">Dataset</a></li>
             </ul>
-            <p className={classes.Color}>sdf</p>
         </nav>
     </header>
 );

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
-import './App.css';
+import classes from './App.module.css';
 import Layout from './Components/Layout/Layout'
 
 class App extends Component {
@@ -42,13 +42,14 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div className={classes.App}>
         {/* <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
         </header> */}
 
         {/* <p className="App-intro">{this.state.data}</p> */}
+        
         <Layout>
 
         </Layout>
